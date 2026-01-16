@@ -1,2 +1,10 @@
-# Gift_Shop_Analysis
-Gift Shop Customer Behavior Analysis using CatBoost, FP-Growth and Louvain
+# Gift Shop Customer Behavior Analysis Using CatBoost and Product Networks
+
+## Project Overview 
+The goal of this study is to analyze customer purchasing behavior in a gift shop identifying product co-purchases and predicting repeat purchases.
+
+Insights from product networks and machine learning are used to guide merchandising and marketing strategies.
+
+
+## Tools & Technologies
+
