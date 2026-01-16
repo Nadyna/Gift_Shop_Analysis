@@ -1,4 +1,5 @@
-# Gift Shop Customer Behavior Analysis Using CatBoost and Product Networks
+# Gift Shop Customer Behavior Analysis
+
 
 ## Project Overview 
 The goal of this study is to analyze customer purchasing behavior in a gift shop identifying product co-purchases and predicting repeat purchases.
