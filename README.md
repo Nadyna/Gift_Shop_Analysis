@@ -27,7 +27,7 @@ Key fields: **InvoiceNo**, **StockCode**, **Description**, **Quantity**, **Invoi
 
 ## Key Insights
 ### 1. Returns
-   Returns are rare per transaction (~2%) but ~37% of customers made at least one return.
+   Although returns per transaction are rare (~2%), more than a third of customers (~37%) have made at least one return.
    ![Returns by Transactions and Customers](images/purchases_vs_returns_1.png)
 ### 2. Retail vs Wholesale
    Retail orders are much more often; wholesale orders correspond to large-quantity purchases with volume discounts.
