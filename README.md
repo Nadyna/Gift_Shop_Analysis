@@ -26,16 +26,16 @@ Key fields: **InvoiceNo**, **StockCode**, **Description**, **Quantity**, **Invoi
 4. **Product Relationships & Communities** – FP-Growth for frequent itemsets, Louvain method for network communities, product co-purchase visualizations.
 
 ## Key Insights
-1. Returns
+### 1. Returns
    Returns are rare per transaction (~2%) but ~37% of customers made at least one return.
    ![Returns by Transactions and Customers](images/purchases_vs_returns_1.png)
-2. Retail vs Wholesale
+### 2. Retail vs Wholesale
    Retail orders are much more often; wholesale orders correspond to large-quantity purchases with volume discounts.
    ![Order Size and Unit Price](images/unit_price_by_quantity.png)
-3. Retention
+### 3. Retention
    Retention drops quickly after the first purchase; Dec 2010 cohort shows stronger repeat behavior.
    ![Cohort Retention](images/cohorts.png)
-4. Product Communities
+### 4. Product Communities
    A few popular products drive most co-purchases, forming coherent communities (herb markers, hand warmers, bags).
    ![Top 3 Louvain Communities](images/product__top_communities.png)
 
