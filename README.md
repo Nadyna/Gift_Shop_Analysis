@@ -2,7 +2,7 @@
 
 
 ## Project Overview 
-### Goal
+### Objective
 Understand customer purchasing behavior in a gift shop by:
 - Identifying product co-purchases and communities.
 - Predicting repeat purchases with machine learning.
