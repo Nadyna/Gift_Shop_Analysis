@@ -28,16 +28,16 @@ Key fields: **InvoiceNo**, **StockCode**, **Description**, **Quantity**, **Invoi
 ## Key Insights
 1. Returns
    Returns are rare per transaction (~2%) but ~37% of customers made at least one return.
-   ![Returns by Transactions and Customers](purchases_vs_returns_1.png)
+   ![Returns by Transactions and Customers](images/purchases_vs_returns_1.png)
 2. Retail vs Wholesale
    Retail orders are much more often; wholesale orders correspond to large-quantity purchases with volume discounts.
-   ![Order Size and Unit Price](unit_price_by_quantity.png)
+   ![Order Size and Unit Price](images/unit_price_by_quantity.png)
 3. Retention
    Retention drops quickly after the first purchase; Dec 2010 cohort shows stronger repeat behavior.
-   ![Cohort Retention](cohorts.png)
+   ![Cohort Retention](images/cohorts.png)
 4. Product Communities
    A few popular products drive most co-purchases, forming coherent communities (herb markers, hand warmers, bags).
-   ![Top 3 Louvain Communities](product__top_communities.png)
+   ![Top 3 Louvain Communities](images/product__top_communities.png)
 
 ## Business Recommendations
 - **Customer Retention:** Focus on early engagement and seasonal campaigns.  
