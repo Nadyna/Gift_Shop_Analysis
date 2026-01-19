@@ -35,18 +35,25 @@ Key fields: **InvoiceNo**, **StockCode**, **Description**, **Quantity**, **Invoi
 ### 3. Retention
    Retention drops quickly after the first purchase; Dec 2010 cohort shows stronger repeat behavior.
    ![Cohort Retention](images/cohorts.png)
-### 4. Product Communities
+### 4. Repeat Purchase Prediction Model
+   The CatBoost repeat-purchase model achieved a ROC AUC of 0.78, enabling identification of customers likely to make repeat purchases.
+### 5. Product Communities
    A few popular products drive most co-purchases, forming coherent communities (herb markers, hand warmers, bags).
    ![Top 3 Louvain Communities](images/product__top_communities.png)
 
 ## Business Recommendations
-- **Customer Retention:** Focus on early engagement and seasonal campaigns.  
-- **Marketing & Personalization:** Target likely repeat buyers using prediction models.  
-- **Product & Merchandising:** Bundle tightly connected products; use popular items for cross-selling; recommend similar products.
+- **Customer Retention:** Focus on early engagement and seasonal campaigns, especially during the first purchase period, to reduce early churn (see Cohort Retention in Key Insights)  
+- **Marketing & Personalization:** Target likely repeat buyers using predictive modeling results. The Catboost model (ROC AUC = 0.78) can help identify high-probability repeat customers, enabling more effective personalized campaigns (see Repeat Purchase Prediction Model)  
+- **Product & Merchandising:** Bundle tightly connected products; use popular items for cross-selling; recommend similar products (based on Top 3 Louvain Product Communities).
 
-## Visualizations
-- Purchase and return distributions  
-- Quantity vs unit price trends  
-- Cohort retention curves  
-- Product co-purchase networks and community graphs  
-- Tables of top products by degree and strength within communities
+## Appendices
+### Table 1: Louvain Community Node Explanation (Top 3 Communities)
+
+| #  | Community 16 - Product | Community 16 - Description     | Community 0 - Product | Community 0 - Description         | Community 26 - Product | Community 26 - Description     |
+|----|----------------------|--------------------------------|----------------------|---------------------------------|----------------------|--------------------------------|
+| 1  | 85099B: JB RED        | JUMBO BAG RED RETROSPOT       | 22916: HM THYME      | HERB MARKER THYME               | 22633: HW UNION      | HAND WARMER UNION JACK         |
+| 2  | 20725: LB RED         | LUNCH BAG RED RETROSPOT       | 22917: HM ROSEMARY   | HERB MARKER ROSEMARY            | 22866: HW SCOTTY     | HAND WARMER SCOTTY DOG DESIGN |
+| 3  | 22383: LB SUKI        | LUNCH BAG SUKI DESIGN         | 22918: HM PARSLEY    | HERB MARKER PARSLEY             | 22865: HW OWL        | HAND WARMER OWL DESIGN        |
+| 4  | 20727: LB BLACK       | LUNCH BAG BLACK SKULL         | 22920: HM BASIL      | HERB MARKER BASIL               | 23439: HW RED        | HAND WARMER RED LOVE HEART    |
+| 5  | 22386: JB PINK        | JUMBO BAG PINK POLKADOT       | 22919: HM MINT       | HERB MARKER MINT                | 22867: HW BIRD       | HAND WARMER BIRD DESIGN       |
+
