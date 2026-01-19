@@ -11,7 +11,14 @@ Insights help inform merchandising, marketing, and cross-selling strategies.
 ### Data
 Dataset: the **Online Retail dataset** (UCI Machine Learning Repository), that contains transactional records from a UK-based online gift shop (Dec 2010 – Dec 2011).  
 Key fields:
-- **InvoiceNo**, **StockCode**, **Description**, **Quantity**, **InvoiceDate**, **UnitPrice**, **CustomerID**, **Country**.
+- **InvoiceNo**,
+- **StockCode**,
+- **Description**,
+- **Quantity**,
+- **InvoiceDate**,
+- **UnitPrice**,
+- **CustomerID**,
+- **Country**.
 
 ## Tools & Technologies
 - **Python** – primary programming language  
