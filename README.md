@@ -49,11 +49,10 @@ Key fields: **InvoiceNo**, **StockCode**, **Description**, **Quantity**, **Invoi
 ## Appendices
 ### Table 1: Louvain Community Node Explanation (Top 3 Communities)
 
-| #  | Community 16 - Product | Community 16 - Description     | Community 0 - Product | Community 0 - Description         | Community 26 - Product | Community 26 - Description     |
-|----|----------------------|--------------------------------|----------------------|---------------------------------|----------------------|--------------------------------|
-| 1  | 85099B: JB RED        | JUMBO BAG RED RETROSPOT       | 22916: HM THYME      | HERB MARKER THYME               | 22633: HW UNION      | HAND WARMER UNION JACK         |
-| 2  | 20725: LB RED         | LUNCH BAG RED RETROSPOT       | 22917: HM ROSEMARY   | HERB MARKER ROSEMARY            | 22866: HW SCOTTY     | HAND WARMER SCOTTY DOG DESIGN |
-| 3  | 22383: LB SUKI        | LUNCH BAG SUKI DESIGN         | 22918: HM PARSLEY    | HERB MARKER PARSLEY             | 22865: HW OWL        | HAND WARMER OWL DESIGN        |
-| 4  | 20727: LB BLACK       | LUNCH BAG BLACK SKULL         | 22920: HM BASIL      | HERB MARKER BASIL               | 23439: HW RED        | HAND WARMER RED LOVE HEART    |
-| 5  | 22386: JB PINK        | JUMBO BAG PINK POLKADOT       | 22919: HM MINT       | HERB MARKER MINT                | 22867: HW BIRD       | HAND WARMER BIRD DESIGN       |
-
+| #  | Community 16                  | Community 0                 | Community 26                |
+|----|-------------------------------|-----------------------------|-----------------------------|
+| 1  | 85099B: JB RED<br>JUMBO BAG RED RETROSPOT       | 22916: HM THYME<br>HERB MARKER THYME            | 22633: HW UNION<br>HAND WARMER UNION JACK       |
+| 2  | 20725: LB RED<br>LUNCH BAG RED RETROSPOT       | 22917: HM ROSEMARY<br>HERB MARKER ROSEMARY      | 22866: HW SCOTTY<br>HAND WARMER SCOTTY DOG DESIGN |
+| 3  | 22383: LB SUKI<br>LUNCH BAG SUKI DESIGN       | 22918: HM PARSLEY<br>HERB MARKER PARSLEY       | 22865: HW OWL<br>HAND WARMER OWL DESIGN        |
+| 4  | 20727: LB BLACK<br>LUNCH BAG BLACK SKULL      | 22920: HM BASIL<br>HERB MARKER BASIL           | 23439: HW RED<br>HAND WARMER RED LOVE HEART    |
+| 5  | 22386: JB PINK<br>JUMBO BAG PINK POLKADOT    | 22919: HM MINT<br>HERB MARKER MINT             | 22867: HW BIRD<br>HAND WARMER BIRD DESIGN     |
